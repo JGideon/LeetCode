@@ -20,5 +20,5 @@ class Solution:
             slow = slow.next
             quick = quick.next
         slow.next = slow.next.next 
-        return head
+        return dummyHead.next
             
