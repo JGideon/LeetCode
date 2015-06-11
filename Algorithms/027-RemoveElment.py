@@ -1,4 +1,3 @@
-#encoding=utf-8
 class Solution():
     '''
     @param integer[] nums
@@ -18,7 +17,7 @@ class Solution():
                 j += 1
         print(nums)
         return newLen
-    
+
     def removeElement(self, nums, val):
         tail = 0
         for i in range(len(nums)):
@@ -26,7 +25,7 @@ class Solution():
                 nums[tail] = nums[i]
                 tail += 1
         print(nums)
-        return tail 
+        return tail
 
 s = Solution()
 nums = [1,2,3,4,4,5,6,7]

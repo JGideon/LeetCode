@@ -2,11 +2,9 @@ class Solution:
     '''
     '''
     def isBalanced(self, root):
-        if root is None:
+        if not root:
             return True
-        leftHeight = self.deepth(root.left)
-        rightHeigt = self.deepth(root.right)
-
+        return abs(self.deepth(root.left) - self.deepth(root.right)) <= 1 and self.isBalanced(root.left) and self.isBalanced(root.right)
 
 
     def deepth(self, root):

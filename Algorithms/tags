@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ListNode	test.cpp	/^struct ListNode {$/;"	s	file:
+main	test.cpp	/^int main()$/;"	f
+next	test.cpp	/^	struct ListNode *next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:
+swapPairs	test.cpp	/^struct ListNode* swapPairs(struct ListNode* head) {$/;"	f
+val	test.cpp	/^	int val;$/;"	m	struct:ListNode	file:

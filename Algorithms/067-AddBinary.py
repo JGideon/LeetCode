@@ -6,7 +6,7 @@
 # Description:
 # @param: string a
 # @param: string b
-# @return: string 
+# @return: string
 """
 class Solution:
     def addBinary(self, a, b):
@@ -20,7 +20,7 @@ class Solution:
                flag = 1
             else:
                 result = repr(res) + result
-                flag = 0 
+                flag = 0
             i -= 1
             j -= 1
         while i >= 0:
@@ -29,7 +29,7 @@ class Solution:
                result = repr(res % 2) + result
                flag = 1
             else:
-                result = repr(res)
+                result = repr(res) + result
                 flag = 0
             i -= 1
         while j >= 0:
@@ -38,7 +38,7 @@ class Solution:
                result = repr(res % 2) + result
                flag = 1
             else:
-                result = repr(res)
+                result = repr(res) + result
                 flag = 0
             j -= 1
         if flag == 1:

@@ -22,5 +22,6 @@ struct ListNode* swapPairs(struct ListNode* head) {
 
 int main()
 {
+    test.c
 	return 0;
 }
